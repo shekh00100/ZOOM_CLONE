@@ -23,7 +23,7 @@ class meetings extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(children: [
       Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           HomeMeetingButton(
             onPressed: createNewMeeting,
@@ -35,16 +35,16 @@ class meetings extends StatelessWidget {
             icon: Icons.add_box,
             text: 'Join Meeting',
           ),
-          HomeMeetingButton(
-            onPressed: () {},
-            icon: Icons.calendar_today,
-            text: 'Schedule',
-          ),
-          HomeMeetingButton(
-            onPressed: () {},
-            icon: Icons.arrow_upward_rounded,
-            text: 'Share Screen',
-          )
+          // HomeMeetingButton(
+          //   onPressed: () {},
+          //   icon: Icons.calendar_today,
+          //   text: 'Schedule',
+          // ),
+          // HomeMeetingButton(
+          //   onPressed: () {},
+          //   icon: Icons.arrow_upward_rounded,
+          //   text: 'Share Screen',
+          // )
         ],
       ),
       const Expanded(
