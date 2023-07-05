@@ -80,7 +80,7 @@ class _VideoCallState extends State<VideoCall> {
               controller: namedController,
               maxLines: 1,
               textAlign: TextAlign.center,
-              keyboardType: TextInputType.number,
+              keyboardType: TextInputType.text,
               decoration: const InputDecoration(
                   fillColor: secondaryBackgroundColor,
                   filled: true,
